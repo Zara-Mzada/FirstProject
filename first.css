@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  margin-top: 65px;
+}
+.container {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.container > a {
+  width: 166px;
+  height: 49px;
+}
+.header ul {
+  padding: 0px;
+  list-style: none;
+  display: inline-block;
+}
+.header ul li {
+  display: inline-block;
+  margin-right: 58px;
+}
+.header ul li:last-child {
+  margin-right: 0px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}
+.header ul li a:hover {
+  color: rgb(71, 142, 224);
+}
+.hero {
+  margin-top: 140px;
+}
+.hero .text {
+  width: 627px;
+}
+.hero .text h2 {
+  font-size: 49px;
+  font-weight: 700;
+  color: #07043b;
+  font-family: none;
+}
+.hero .text p {
+  width: 585px;
+  font-size: 21px;
+  color: #07043b;
+  margin: 15px 0px;
+}
+.form {
+  width: 536px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#email {
+  outline: none;
+  width: 320px;
+  height: 40px;
+  font-size: 18px;
+}
+#submit {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #534af5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.productive {
+  background-image: url(./img/Rectangle.png);
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  margin-top: 100px;
+}
+.productive .text {
+  width: 627px;
+}
+.productive .text > p {
+  width: 585px;
+  font-size: 21px;
+  color: #07043b;
+  margin: 15px 0px;
+}
+.productive h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #07043b;
+  font-family: none;
+}
+.link a {
+  color: rgb(34, 112, 34);
+  text-decoration: none;
+  font-size: 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(34, 112, 34);
+}
+svg {
+  margin-left: 10px;
+}
+.comment {
+  width: 356px;
+  background-color: white;
+  padding: 15px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 1px grey;
+  margin-top: 70px;
+}
+.opinion {
+  font-size: 16px;
+  color: black;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.man {
+  margin-top: 20px;
+}
