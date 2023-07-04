@@ -127,3 +127,61 @@ svg {
 .man {
   margin-top: 20px;
 }
+.topFooter {
+  background-color: #575988;
+  padding: 70px 0px;
+}
+.topFooterText {
+  width: 533px;
+  color: white;
+}
+.topFooterText h2 {
+  font-size: 35px;
+}
+.topFooterText p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.topFooterRequest {
+  width: 480px;
+}
+#request {
+  outline: none;
+  font-size: 20px;
+  width: 480px;
+  margin-bottom: 20px;
+  padding: 10px 2px;
+}
+#button {
+  background-color: #2f65f8;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px 64px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #07043b;
+  padding: 50px 0px;
+}
+.footer > img {
+  margin-left: 32px;
+  margin-bottom: 30px;
+}
+.firstPart p {
+  color: white;
+}
+.firstPart ul {
+  list-style: none;
+  padding: 0px;
+}
+.firstPart ul li {
+  margin-bottom: 15px;
+}
+.firstPart ul li a {
+  color: white;
+  text-decoration: none;
+}
+.fa-solid {
+  margin-right: 10px;
+}
